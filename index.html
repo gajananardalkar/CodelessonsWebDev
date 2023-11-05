@@ -5,75 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1st Lecture</title>
-
-
-
-
+    <link rel="stylesheet" href="./Style.css">
     <style>
-        .cardContainer {
-            width: 300px;
-            border: 2px solid black;
-            color: red;
-            margin-bottom: 10px;
-        }
-        .cardimg{
-            width: 200px;
-            margin-left: 38px;
-        }
-        .otherContainer {
-            width: 500px;
-            background-color: rgb(178, 178, 239);
-            color: blueviolet;
-            border: 1px dotted blue;
-            margin-top: 10px;
-        }
-        .otherImage{
-            width: 100px;
-        }
-
-        .newmargin{
-            margin: 50px 5px 30px 50px;
-            padding: 5px 10px 12px 14px;
-            border-radius: 12px;
-        }
-        .cardDesc{
+        .cardDesc {
             font-size: 14px;
-            color: brown;
-        }
-        .btn{
-            background-color: aliceblue;
-            color: black;
-            font-weight: bold;
-            border-radius: 8px;
+            color: yellow;
         }
     </style>
-
-
-
 </head>
+<!-- inline , internal , external = brown-->
+
+<!-- HTML file priortise Inline css over Internal and External, but we can overwrite inline css by using !important keyword -->
+<!-- 2nd priority gives to inernal and then External css but we can overwrite using !important keyword-->
 
 <body>
-    <!-- <div class="cardContainer">
+
+<div class="divcontainer">
+
+    <div class="cardContainer newmargin">
         <img class="cardimg" src="./codelessons.png" alt="This is logo">
         <h4>This is Internal CSS demo</h4>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, quis. Autem ipsum praesentium nemo et?</p>
     </div>
 
-    <div class="otherContainer">
+    <div class="otherContainer newmargin">
         <img class="otherImage" src="./codelessons.png" alt="This is logo" width="200px">
         <h4>This is Internal CSS 2nd DIV</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non saepe inventore soluta quisquam animi perspiciatis culpa dolor fugiat molestias ipsam autem reiciendis fuga quae, magnam veritatis expedita excepturi sed consequuntur ex at quas! Voluptate amet architecto fugit molestiae, nam consequatur blanditiis quam inventore temporibus quia id, maxime magnam nostrum?</p>
-    </div> -->
+    </div> 
 
 
 
     <div class="cardContainer newmargin">
         <img class="cardimg" src="./codelessons.png" alt="This is logo">
-        <p class="cardDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde architecto doloribus autem nesciunt rerum magni eum, ratione est quidem reiciendis repudiandae fuga provident amet sint voluptatibus labore vitae soluta voluptas neque dignissimos enim assumenda veniam suscipit! Eum explicabo quibusdam nostrum nobis mollitia, enim quaerat quisquam fuga dolor et perferendis. Dolore?</p>
+        <p class="cardDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+            architecto doloribus autem nesciunt rerum magni eum, ratione est quidem reiciendis repudiandae fuga
+            provident amet sint voluptatibus labore vitae soluta voluptas neque dignissimos enim assumenda veniam
+            suscipit! Eum explicabo quibusdam nostrum nobis mollitia, enim quaerat quisquam fuga dolor et perferendis.
+            Dolore?</p>
 
         <h4>JOIN US</h4>
         <button class="btn">Click Here</button>
     </div>
+
+
+</div>
+
+
 
 </body>
 

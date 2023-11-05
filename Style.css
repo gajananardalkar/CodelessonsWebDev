@@ -1,0 +1,41 @@
+.cardContainer {
+    width: 300px;
+    border: 2px solid black;
+    color: #164863;
+    margin: 10px 0 10px 10px;
+}
+.cardimg{
+    width: 200px;
+    margin-left: 38px;
+}
+.otherContainer {
+    width: 500px;
+    color: blueviolet;
+    border: 2px solid black;
+    margin: 10px 0 10px 10px;
+}
+.otherImage{
+    width: 100px;
+}
+
+.newmargin{
+    margin: 50px 5px 30px 50px;
+    padding: 5px 10px 12px 14px;
+    border-radius: 12px;
+}
+.cardDesc{
+    font-size: 14px;
+    color: brown ;
+}
+.btn{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.divcontainer{
+    border: 2px solid black;
+    margin: 5px;
+    display: flex;
+}
