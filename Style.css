@@ -1,4 +1,4 @@
-.cardContainer {
+/* .cardContainer {
     width: 300px;
     border: 2px solid black;
     color: #164863;
@@ -38,10 +38,6 @@
     border: 2px solid black;
     margin: 5px;
     display: flex;
-
-
-
-/* y-axis        x axis */
     margin:10px 20px;
 }
 
@@ -53,7 +49,6 @@ h2,p{
     padding: 0;
 }
 .profileContainer{
-    /* border: 1px solid grey; */
     text-align: center;
 }
 .profilePicture{
@@ -71,7 +66,6 @@ h2,p{
     text-decoration: none;
 }
 .divHolder{
-    /* border: 1px solid grey; */
     width: 90%;
     margin: 10px 5%;
     display: flex;
@@ -86,6 +80,33 @@ h2,p{
 }
 
 
+.testingContainer{
+    width: 400px;
+    border: 1px solid grey;
+}
+
+.testing{
+    width: 400px;
+    border: 1px solid grey;
+    display: flex;
+}
+ */
+
+
+ .divContainer{
+    border: 1px solid red;
+    /* display: grid; */
+    /* display: block; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+ }
+ .newdiv{
+    text-align: center;
+    border: 1px solid black;
+    width: 250px;
+    height: 100px;
+ }
 
 
 
@@ -104,5 +125,82 @@ h2,p{
 
 
 
+ .imgcontainer{
+    width: 100%;
+    border: 1px solid red;
+ }
+
+ .image{
+    /* width: 100%; */
+    /* background-size: cover; */
+ }
+ .nav{
+    top: 100px;
+    position: sticky;
+   
+ }
 
 
+ /* 4th December */
+
+
+ .grandfather{
+    border: 1px solid black;
+    width: 250px;
+ }
+ .parent{
+    display: flex;
+ }
+ .below{
+    border-top: 1px solid black;
+ }
+ 
+
+ /* 7th December */
+
+.menuConatainer{
+    /* border: 1px solid black; */
+    width: 250px;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuConatainer:hover{
+    box-shadow: 5px 5px 5px 5px rgb(144, 138, 138);
+}
+
+ .foodlogo{
+    width: 250px;
+        border-radius: 12px;
+
+ }
+ p{
+    margin: 0;
+    padding: 0;
+ }
+ .infoConatiner{
+    display: flex;
+ }
+ .footer{
+    display: flex;
+    margin-top: 4px;
+    padding: 4px 0 0 0;
+    border-top: 1px solid grey;
+ }
+ .foddPrice{
+    margin-left: 25%;
+ }
+ .safetyDesc{
+    margin-left: 5%;
+ }
+ .rating{
+    background-color: green;
+    padding: 2px 8px 2px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 64%;
+ }
