@@ -1,0 +1,98 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.cardContainer{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    z-index: 0;
+
+
+}
+.card{
+    border: 1px solid black;
+    width: 220px;
+}
+
+.cardImg{
+    width: 200px;
+}
+.img{
+    width: 100%;
+}
+.cardDesc{
+    display: flex;
+}
+.price{
+    margin-left: 30%;
+}
+.card1{
+    width: 100%;
+    background-color: green;
+    z-index: 1;
+}
+
+/* psudo classes */
+/* unvisited */
+a:link{
+    color: yellow;
+}
+/* viited */
+ a:visited{
+    color: green;
+} 
+
+a:hover{
+    color: black;
+}
+/* sekected */
+a:active{
+    color: blueviolet;
+}
+
+/* Position - static, relative, fixed, absolute , sticky */
+.navContainer{
+    /* margin-top: 100px; */
+    width: 100%;
+    display: flex;
+    border: 1px solid red;
+    position: sticky;
+    top: 0;
+    background-color: aquamarine;
+}
+.navLogo{
+    width: 40%;
+    /* border: 1px solid purple; */
+}
+.navimg{
+    width: 100px;
+}
+
+.navbar{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.realtiveEx{
+    position: relative;
+}
+.absolteEX{
+    position: absolute;
+    top: 250px;
+    left: 220px;
+}
