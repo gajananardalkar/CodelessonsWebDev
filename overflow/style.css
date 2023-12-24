@@ -1,0 +1,11 @@
+.container{
+    border: 1px solid black;
+    width: 200px;
+    height: 250px;
+    /* overflow-y: scroll;
+    overflow-x:hidden ; */
+    overflow: scroll;
+}
+.para{
+    /* width: 400px; */
+}
