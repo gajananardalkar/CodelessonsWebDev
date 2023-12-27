@@ -67,7 +67,7 @@ margin: auto;
 
 @media screen and (min-width:670px){
     .bgcolor1{
-        background-color:red ;
+        /* background-color:red ; */
     }
     
 }
